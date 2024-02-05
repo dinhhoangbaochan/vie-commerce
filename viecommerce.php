@@ -2,7 +2,7 @@
 /**
  * Plugin Name: VieCommerce
  * Plugin URI: https://chandinh.com
- * Description: An ecommerce plugin from Vietnamese dev community. Just want to try and be a competitor with the great Woo.
+ * Description: An ecommerce plugin that just wants to try and be a competitor with the great Woo.
  * Version: 0.0.1
  * Author: Chan Dinh
  * Author URI: https://chandinh.com
@@ -12,3 +12,9 @@
  *
  * @package VieCommerce
  */
+
+defined( 'ABSPATH' ) || exit;
+
+if ( ! defined( 'VIEC_PLUGIN_FILE' ) ) {
+	define( 'VIEC_PLUGIN_FILE', __FILE__ );
+}
