@@ -18,3 +18,5 @@ defined( 'ABSPATH' ) || exit;
 if ( ! defined( 'VIEC_PLUGIN_FILE' ) ) {
 	define( 'VIEC_PLUGIN_FILE', __FILE__ );
 }
+
+$test = "Test";
